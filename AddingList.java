@@ -12,8 +12,11 @@ public class AddingList {
         classCodes.add(0, 1425);
         classCodes.add(2, 1100);
 
-        System.out.println(classCodes);
+        System.out.println(classCodes.get(0));
         System.out.println(classCodes.size());
+
+        System.out.println(classCodes);
+        classCodes.remove(Integer.valueOf(1250));
 
         for (int classCode: classCodes) {
             System.out.println("ITEC " + classCode);

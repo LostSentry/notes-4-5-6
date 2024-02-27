@@ -1,0 +1,3 @@
+HashMap
+stores key values
+can add key-value pair, replace value for key, delete key-value pair, loop over all keys
