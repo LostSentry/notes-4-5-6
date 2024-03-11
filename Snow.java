@@ -1,6 +1,6 @@
 import java.util.HashMap;
 import java.util.Map;
-import input.utils
+import
 
 public class Snow {
     public static void main(String[] args) {
