@@ -16,3 +16,10 @@ if a file does exist it will be overwritten
 use append flag to prevent overwrite
 File I/O is slower than reading/writing to memory
 BufferedWriter handles I/O in the background so mem-based ops can continue while the file is being used
+
+Writing ints
+ints are interpreted as unicode values
+if you want to write an int it must be converted to a string "65"
+
+BufferedReader to wrap a FileReader
+to read an entire file use a while loop that repeats while readLine () != null
