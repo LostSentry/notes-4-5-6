@@ -1,6 +1,6 @@
 import java.util.HashMap;
 import java.util.Map;
-import
+
 
 public class Snow {
     public static void main(String[] args) {
@@ -31,6 +31,6 @@ public class Snow {
             System.out.println("There was no snow in july");
         }
 
-        String newMonth = stringInput("Enter name of month");
+        //String newMonth = stringInput("Enter name of month");
     }
 }

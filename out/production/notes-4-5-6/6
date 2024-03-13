@@ -1,0 +1,18 @@
+Several different library classes for file input and output or I/O
+different circumstances
+-read byte by byte/character by character/line by line?
+-reading, writing, appending?
+-sequentially or random?
+-text or binary?
+
+Steps for writing to a file
+1. create and open a file for writing, OR open an existing file to add data
+2. Write data
+3. close the file
+
+FileWriter and BufferedWriter
+FileWriter: open, create, close, and write to a file. can write out Strings/chars to a file
+if a file does exist it will be overwritten
+use append flag to prevent overwrite
+File I/O is slower than reading/writing to memory
+BufferedWriter handles I/O in the background so mem-based ops can continue while the file is being used
